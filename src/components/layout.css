@@ -25,31 +25,56 @@ body {
       color-stop(99.5%, rgba(186, 104, 70, 0.8)));
   margin: 0;
   height: 3000vh;
-  display: grid;
-  grid-template-rows: auto auto auto;
-  grid-template-areas:
-  "main  "
-  ".     "
-  "shadow"
-}
-main {
-  height: 100vh;
-  position: fixed;
-  display: grid;
-  grid-template-rows: 1fr auto% 1fr;
-  grid-template-columns: 1fr 57% 1fr;
-  grid-template-areas:
-    ".    .       ."
-    ".    article ."
-    ".    .       .";
 
+
+
+}
+
+
+main {
+  display: grid;
+  grid-template-rows: 100vh 2800vh 100vh;
+  grid-template-areas:
+  "top  "
+  ".        "
+  "bottom    "
   }
 
 article {
-  grid-area: article;
-  max-height: 57vh;
+  height: 100vh;
+  position: fixed;
+  display: grid;
+  grid-template-rows: 1fr fit-content(60%) 1fr;
+  grid-template-columns: 1fr fit-content(60%) 1fr;
+  grid-template-areas:
+    ".    .       ."
+    ".    light   ."
+    ".    .       .";
+
 }
-aside,
+article div {
+  grid-area: light;
+  position: relative;
+  text-align: center
+}
+aside {
+  grid-area: bottom;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr fit-content(60%) 1fr;
+  grid-template-columns: 1fr fit-content(60%) 1fr;
+  grid-template-areas:
+    ".    .       ."
+    ".    shadow  ."
+    ".    .       .";
+
+}
+
+aside div {
+  grid-area: shadow;
+  text-align: center
+}
+
 details,
 figcaption,
 figure,
