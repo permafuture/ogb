@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Organic Books in Nob Hill',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
