@@ -3,6 +3,77 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+body {
+  background: red; /* not working, let's see some red */
+  background: -moz-linear-gradient( top
+      rgba(71, 163, 242, 1) 0%,
+      rgba(138, 133, 236, 1) 15%,
+      rgba(119, 84, 134, 1) 35%,
+      rgba(186, 50, 168, 1) 60%,
+      rgba(204, 122, 151, 1) 75%,
+      rgba(240, 133, 88, 1) 85%,
+      rgba(254, 249, 17, 1) 97%,
+      rgba(186, 104, 70, 0.8)99.5%);
+  background: -webkit-gradient(linear,  left top,  left bottom,
+      color-stop(0%, rgba(71, 163, 242, 1)),
+      color-stop(15%, rgba(138, 133, 236, 1)),
+      color-stop(35%, rgba(119, 84, 134, 1)),
+      color-stop(60%, rgba(186, 50, 168, 1)),
+      color-stop(75%, rgba(204, 122, 151, 1)),
+      color-stop(85%, rgba(240, 133, 88, 1)),
+      color-stop(97%, rgba(254, 249, 17, 1)),
+      color-stop(99.5%, rgba(186, 104, 70, 0.8)));
+  margin: 0;
+  height: 3000vh;
+
+
+
+}
+
+
+main {
+  display: grid;
+  grid-template-rows: 100vh 2800vh 100vh;
+  grid-template-areas:
+  "top  "
+  ".        "
+  "bottom    "
+  }
+
+article {
+  height: 100vh;
+  position: fixed;
+  display: grid;
+  grid-template-rows: 1fr fit-content(60%) 1fr;
+  grid-template-columns: 1fr fit-content(60%) 1fr;
+  grid-template-areas:
+    ".    .       ."
+    ".    light   ."
+    ".    .       .";
+
+}
+article div {
+  grid-area: light;
+  position: relative;
+  text-align: center
+}
+aside {
+  grid-area: bottom;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr fit-content(60%) 1fr;
+  grid-template-columns: 1fr fit-content(60%) 1fr;
+  grid-template-areas:
+    ".    .       ."
+    ".    shadow  ."
+    ".    .       .";
+
+}
+
+aside div {
+  grid-area: shadow;
+  text-align: center
+}
 
 details,
 figcaption,

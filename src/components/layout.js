@@ -4,7 +4,6 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import './layout.css'
-import './theme.css'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -22,12 +21,11 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Organic Books is the new used bookstore in Nob Hill.' },
-            { name: 'keywords', content: 'book, bookstore, Nob Hill, Albuquerque, New Mexico, used books, Steve Brewer, Max Brewer, Kelly Brewer, Seth Brewer, Jalila Brewer' },
+            { name: 'description', content: 'Sample' },
+            { name: 'keywords', content: 'sample, something' },
           ]}
         >
           <html lang="en" />
-          @import url('https://fonts.googleapis.com/css?family=Andada');
         </Helmet>
         <main
           style={{
