@@ -27,7 +27,8 @@ const Layout = ({ children }) => (
           ]}
         >
           <html lang="en" />
-          @import url('https://fonts.googleapis.com/css?family=Andada');
+          @import url('https://fonts.googleapis.com/css?family=Andada')
+
         </Helmet>
         <main
           style={{

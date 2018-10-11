@@ -23,7 +23,6 @@ body {
   font-family: "Andada", serif;
   font-size:1.3rem;
   line-height: 1.8rem;
-
 }
 
 main {
@@ -43,6 +42,11 @@ main div:nth-child(1) {
   grid-area: topm;
   text-align: center;
 }
+
+main div:nth-child(1) img {
+  max-height: 50vh;
+}
+
 main article  {
   grid-area: midm;
   position: relative;
@@ -50,7 +54,6 @@ main article  {
 }
 
 main div:nth-child(3) {
-  height:100%;
   display: grid;
   align-items: center;
   grid-area: botm;
@@ -59,7 +62,6 @@ main div:nth-child(3) {
   font-size: 2rem;
   border: #fdfdfc;
   padding-top: 12px;
-  text-shadow: 1px 1px 1px #14161a;
 }
 
 main div:nth-child(3) em {
@@ -95,4 +97,12 @@ h2 {
   text-transform: uppercase;
   font-size: 1.8rem;
   letter-spacing: 1px;
+}
+
+#mc_embed_signup{
+  font-size:1rem;
+}
+
+input {
+  width: 5ch;
 }
