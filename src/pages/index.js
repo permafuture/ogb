@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SimpleForm from '../components/subscribe'
@@ -9,6 +8,9 @@ const IndexPage = () => (
   <div>
     <img src="organic-books-logo.svg"/>
     <h1>The new used bookstore<br /> in Nob Hill</h1>
+  </div>
+  <div>
+  <img src="animated.gif" />
   </div>
   <article>
 <p>We&#39;re the Brewer family: Steve, Kelly, Max, Seth and Jalila. We love books. We&#39;ve been writing, reading, designing and editing for over a hundred years.</p>
