@@ -24,6 +24,7 @@ const Layout = ({ children }) => (
           meta={[
             { name: 'description', content: "Organic Books is the new used bookstore in Albuquerque's Nob Hill." },
             { name: 'keywords', content: 'book, bookstore, Nob Hill, Albuquerque, New Mexico, used books, Steve Brewer, Max Brewer, Kelly Brewer, Seth Brewer, Jalila Arthur, ABQ, Nob Hill, Carlisle, La Montanita Co-op, Scalo, Beeps, Terra Firma, The Herb Shop, LaVonBlu' },
+            { name:"google-site-verification", content:"iIvAGmtl2aJi--UTBpgoHr1RPvxRj4syRljS0KksudY" }
           ]}
         >
           <html lang="en" />
