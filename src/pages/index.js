@@ -22,8 +22,8 @@ const IndexPage = () => (
   <h1>Organic Books</h1>
   <p>
   <em>In the historic Nob Hill Shopping Center</em></p>
-  <p>
-  111 Carlisle Boulevard SE</p>
+  <p>111 Carlisle Boulevard SE</p>
+  <p>Albuquerque</p>
   <SimpleForm />
 
   </div>

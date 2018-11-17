@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Organic Books in Nob Hill',
+    title: 'Organic Books in Albuquerque',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
