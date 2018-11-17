@@ -22,8 +22,8 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Organic Books is the new used bookstore in Nob Hill.' },
-            { name: 'keywords', content: 'book, bookstore, Nob Hill, Albuquerque, New Mexico, used books, Steve Brewer, Max Brewer, Kelly Brewer, Seth Brewer, Jalila Brewer' },
+            { name: 'description', content: "Organic Books is the new used bookstore in Albuquerque's Nob Hill." },
+            { name: 'keywords', content: 'book, bookstore, Nob Hill, Albuquerque, New Mexico, used books, Steve Brewer, Max Brewer, Kelly Brewer, Seth Brewer, Jalila Arthur, ABQ, Nob Hill, Carlisle, La Montanita Co-op, Scalo, Beeps, Terra Firma, The Herb Shop, LaVonBlu' },
           ]}
         >
           <html lang="en" />
