@@ -20,7 +20,7 @@ body {
       color-stop(99%, rgba(254, 249, 17, 1)));
   margin: 0;
   color: #fdfdfc;
-  font-family: "Andada", serif;
+  font-family: "Alegreya", serif;
   font-size:1.3rem;
   line-height: 1.8rem;
 }
@@ -77,6 +77,7 @@ main div:nth-child(4) h1 {
   font-size: 3rem;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Alegreya:500');
 
 @font-face {
 font-family: 'Picture House One Bold';

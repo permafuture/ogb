@@ -20,8 +20,8 @@ const IndexPage = () => (
    </article>
 <div>
   <h1>Organic Books</h1>
-  <p>
-  <em>In the historic Nob Hill Shopping Center</em></p>
+  <p><em>In the historic Nob Hill Shopping Center</em></p>
+  <p><strong>Open Tuesday through Sunday 10am to 7pm</strong></p>
   <p>111 Carlisle Boulevard SE</p>
   <p>Albuquerque</p>
   <SimpleForm />
