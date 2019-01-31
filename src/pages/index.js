@@ -24,6 +24,7 @@ const IndexPage = () => (
   <p><strong>Open Tuesday through Sunday 10am to 7pm</strong></p>
   <p>111 Carlisle Boulevard SE</p>
   <p>Albuquerque</p>
+  <p>505.553.3823</p>
   <SimpleForm />
 
   </div>
